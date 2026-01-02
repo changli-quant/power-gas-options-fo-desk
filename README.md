@@ -1,13 +1,12 @@
-# Power & Gas Options FO Desk
+# Power & Gas Options FO Desk – From Market Quotes to Hedging
 
-This repository is my personal project to rebuild front-office quant intuition
-for power and gas options trading.
+This repository is a front-office style implementation of a power/gas options desk workflow.
 
-The focus is not on complex models, but on understanding:
-- how option prices are quoted in the market
-- how implied volatility is extracted
-- how Black–Scholes is used on a trading desk
-- how prices and Greeks support hedging and P&L analysis
+The goal is not to build a complex model, but to demonstrate how models are used
+to support real trading decisions on a commodity options desk, including:
 
-This is written primarily as my own desk-style notebook,
-and secondarily as a reference for others.
+- how market option quotes are interpreted
+- how implied volatility is extracted from prices
+- how Black–Scholes is used as a pricing and risk tool (not a forecasting model)
+- how prices, Greeks, and P&L attribution support trader hedging decisions
+
